@@ -1,0 +1,51 @@
+keymap:
+  - name: emacs-delete
+    application:
+      not: konsole
+    remap:
+      C-k: [Shift-end, delete]
+      C-u: [Shift-home, backspace]
+
+  - name: kconsole-delete-word
+    application:
+      only: konsole
+    remap:
+      C-SUPER-h: C-w
+
+  - name: chorme-history
+    application:
+      only: [firefox, chorme]
+    remap:
+      SUPER-h: C-h
+
+  - name: emacs-general
+    remap:
+      C-SUPER-b: C-left
+      C-SUPER-f: C-right
+      C-SUPER-h: C-backspace
+      C-SUPER-d: C-delete
+      C-a: home
+      C-b: left
+      C-d: delete
+      C-e: end
+      C-f: right
+      C-h: backspace
+      C-n: down
+      C-p: up
+      C-j: enter
+      C-semicolon: equal
+      C-leftbrace: esc
+      SUPER-f: C-f
+      SUPER-Shift-f: C-Shift-f
+      SUPER-n: C-n
+      SUPER-a: C-a
+
+
+modmap:
+  - name: swap
+    remap:
+      CapsLock: Control_L
+      leftmeta: [leftalt, rightalt]
+      leftalt: leftmeta
+      rightalt: leftmeta
+
