@@ -1,3 +1,6 @@
+# 基于 xremap 的按键配置
+# app 特殊规则放在上面，通用规则放在下面
+
 keymap:
   - name: emacs-delete
     application:
