@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+NoDisplay=true
+Terminal=false
+Name=Xremap
+Exec=/usr/bin/xremap ~/.config/xremap/config.yml
+Icon=xremap
+Comment=Remap keys in emacs manner
+Categories=System;

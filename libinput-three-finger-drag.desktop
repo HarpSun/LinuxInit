@@ -7,4 +7,3 @@ Exec=/usr/bin/libinput-three-finger-drag 2.0
 Icon=libinput-gestures
 Comment=Background application to intercept and action libinput gestures from touchpad.
 Categories=System;
-
